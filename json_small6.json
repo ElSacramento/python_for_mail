@@ -1,0 +1,82 @@
+{
+
+    "status": 200,
+
+    "last_modified": 123456789,
+
+    "htmlencoded": true,
+
+    "email": "philiptestovyj@mail.ru",
+
+    "body":
+
+        {
+
+            "login": "philiptestovyj",
+
+            "nick": "Philip Testovyj",
+
+            "flags":
+
+                {
+
+                    "mrim_disabled": true
+
+                },
+
+            "avatars":
+
+                {
+
+                    "mainphoto": "//avt.mail.ru/user/main.jpg",
+
+                    "90x90": "//avt.mail.ru/user/90x90.jpg"
+
+                }
+        },
+
+    "phones":
+
+        [
+
+            {
+
+                "id": "id_base32string",
+
+                "phone": "7926200****",
+
+                "visibility": "hidden",
+
+                "country": "ru",
+
+                "mobile": true,
+
+                "status": "ok",
+
+                "noticeable": "enabled"
+
+            },
+
+            {
+
+                "id": "id_base64string",
+
+                "phone": "7916172****",
+
+                "visibility": "hidden",
+
+                "country": "ru",
+
+                "mobile": true,
+
+                "status": "in_remove_queue",
+
+                "noticeable": "disabled",
+
+                "duedate": "123456789"
+
+            }
+
+        ]
+
+}

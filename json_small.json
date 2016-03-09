@@ -1,0 +1,39 @@
+{
+
+    "status": 200,
+
+    "last_modified": 123456789,
+
+    "htmlencoded": true,
+
+    "email": "philiptestovyj@mail.ru",
+
+    "body":
+
+        {
+
+            "login": "philiptestovyj",
+
+            "domain": "mail.ru",
+
+            "nick": "Philip Testovyj",
+
+            "flags":
+
+                {
+
+                    "mrim_disabled": true
+
+                },
+
+            "avatars":
+
+                {
+
+                    "mainphoto": "//avt.mail.ru/user/main.jpg",
+
+                    "90x90": "//avt.mail.ru/user/90x90.jpg"
+
+                }
+        }
+}
