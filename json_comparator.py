@@ -124,9 +124,22 @@ def compare_json(first,second, ethalon_id, keyname = ""):
 # In[25]:
 
 import sys
+import argparse
+
 
 if __name__ == "__main__":
-    comparator(sys.argv[1], sys.argv[2])
+	
+	parser = argparse.ArgumentParser(description='Write paths to json files.')
+	parser.add_argument('ethalon', metavar='path_to_ethalon', type=str,
+                   help='ethalon for comparator')
+	parser.add_argument('json', metavar='path_to_json', type=str,
+                   help='json for comparator')
+
+	args = parser.parse_args()
+
+
+
+	comparator(args.ethalon, args.json)
     
 
 
