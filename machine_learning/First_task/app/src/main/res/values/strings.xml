@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">First_task</string>
+    <string-array name="numbers">
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+        <item>четыре</item>
+    </string-array>
+</resources>
